@@ -84,7 +84,7 @@ public class FormContactActivity extends AppCompatActivity {
         });
     }
 
-    public void updateRetrofit(Contact contact, int id){
+    /*public void updateRetrofit(Contact contact, int id){
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://6352ca44a9f3f34c3749009a.mockapi.io/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -102,5 +102,5 @@ public class FormContactActivity extends AppCompatActivity {
 
             }
         });
-    }
+    }*/
 }
